@@ -74,14 +74,6 @@
     _clouds = @[_cloud1, _cloud2];
     _bushes = @[_bush1, _bush2];
     
-    // Note that the bush ratio is larger than the cloud (parallax)
-    _bushParallaxRatio = ccp(0.9, 1);
-    _cloudParallaxRatio = ccp(0.5, 1);
-    
-    
-    
-    
-    
     
     for (CCNode *ground in _grounds) {
         // set collision txpe
